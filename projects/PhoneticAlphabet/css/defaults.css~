@@ -3,3 +3,11 @@
     font-color:#ffffff;
     font-size: 36px;
 }
+
+p.paperimg {
+    max-width: 200px;
+}
+
+p.paperimg img {
+    width:100%;
+}

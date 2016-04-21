@@ -12,3 +12,11 @@
 #title {
 		font-weight:bold;
 }
+
+p.paperimg {
+    max-width:600px;
+}
+
+p.paperimg img {
+    width:100%;
+}
