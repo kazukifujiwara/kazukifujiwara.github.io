@@ -16,7 +16,8 @@
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
-        <link rel="stylesheet" href="css/defaults.css">
+        <link href="css/defaults.css" rel="stylesheet">
+        <link href="css/carousel.css" rel="stylesheet">
             
     </head>
     <body>
@@ -26,7 +27,7 @@
         <header class="header">
         <div class="container">
             <div id="tytle">
-                Error Correction of Speech Recognition<br> by Custom Phonetic Alphabet Input<br> for Ultra-Small Devices
+                Error Correction of Speech Recognition by Custom Phonetic Alphabet Input for Ultra-Small Devices
             </div>
         </div>
         </header>
@@ -49,9 +50,114 @@
             <div class="page-header" id="system">
                 <h2>System</h2>
             </div>
-            coming soon.
-        </div>
             
+            <!--
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./src/flow1.jpg" width="193" height="224">
+                </div>
+                <div class="col-md-9">
+                    hoge hoge hoge hoge fuga fuga fuga fuga
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./src/flow2.jpg" width="193" height="224">
+                </div>
+                <div class="col-md-9">
+                    hoge hoge hoge hoge fuga fuga fuga fuga
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./src/flow3.jpg" width="193" height="224">
+                </div>
+                <div class="col-md-9">
+                    hoge hoge hoge hoge fuga fuga fuga fuga
+                </div>
+            </div>
+        
+            <div class="row">
+                <div class="col-md-3">
+                    <img src="./src/flow4.jpg" width="193" height="224">
+                </div>
+                <div class="col-md-9">
+                    hoge hoge hoge hoge fuga fuga fuga fuga
+                </div>
+            </div>
+             -->
+             
+             
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+            
+            <div class="carousel-inner" role="listbox">
+                
+                <div class="item active">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <img src="./src/flow1.jpg" width="193" height="224">
+                            <p>(1) Assume that the user pushed ‘Record’ button and said “Please send me the <span style="color:#ffff99;">file</span>,” but the ASR recognized it as “Please send me the <span style="color:#ffff99;">fire</span>.”
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <img src="./src/flow2.jpg" width="193" height="224">
+                            <p>(2) Select the wrongly recognized words by tapping and swiping on the words.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <img src="./src/flow3.jpg" width="193" height="224">
+                            <p>(3) push ‘Record’ button, and read out corresponding words. (In this case, you should say "Fox, Ice, Lucky, Ear.") Then, the result of the input will be displayed.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="item">
+                    <div class="container">
+                        <div class="carousel-caption">
+                            <img src="./src/flow4.jpg" width="193" height="224">
+                            <p>(4) Push 'OK' button, then the selected parts will be replaced with the input."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div><!-- /.carousel -->
+
+        
+        </div>
+        
+        
+        
+        
         <div class="container">
             <div class="page-header" id="demomovie">
                 <h2>Demo Movie</h2>
