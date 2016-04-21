@@ -1,0 +1,5 @@
+.header {
+    background-color:#006888;
+    font-color:#ffffff;
+    font-size: 36px;
+}
