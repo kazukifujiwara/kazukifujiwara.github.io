@@ -13,3 +13,19 @@
 .projects a:active {
     color: #ffffff;
 }
+
+.publication a:link {
+    color: #000000;
+}
+
+.publication a:visited {
+    color: #000000;
+}
+
+.publication a:hover {
+    color: #999999;
+}
+
+.publication a:active {
+    color: #ffffff;
+}
