@@ -5,12 +5,12 @@
 }
 
 .footer {
-		background-color:#006888;
+    background-color:#006888;
     color:#ffffff;
 }
 
 #title {
-		font-weight:bold;
+    font-weight:bold;
 }
 
 p.paperimg {
@@ -19,4 +19,12 @@ p.paperimg {
 
 p.paperimg img {
     width:100%;
+}
+
+.table {
+    width:200px;
+}
+
+#tables {
+    margin-top: 20px;
 }
