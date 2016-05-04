@@ -1,11 +1,11 @@
 .header {
-    background-color:#006888;
+    background-color:#790088;
     color:#ffffff;
     font-size: 36px;
 }
 
 .footer {
-    background-color:#006888;
+    background-color:#790088;
     color:#ffffff;
 }
 
@@ -19,6 +19,20 @@ p.paperimg {
 
 p.paperimg img {
     width:100%;
+}
+
+p.studyimage{
+  margin-top: 20px;
+  min-width:200px;
+  max-width:600px;
+}
+
+p.studyimage img {
+  width:100%
+}
+
+.carousel-caption p {
+  color:#000000;
 }
 
 .table {
