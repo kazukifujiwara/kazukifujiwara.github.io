@@ -31,6 +31,16 @@ p.studyimage img {
   width:100%
 }
 
+p.demomovie{
+  margin-top: 20px;
+  min-width:200px;
+  max-width:600px;
+}
+
+p.demomovie video {
+  width:100%
+}
+
 .carousel-caption p {
   color:#000000;
 }
